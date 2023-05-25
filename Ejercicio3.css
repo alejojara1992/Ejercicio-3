@@ -1,0 +1,35 @@
+.contenido{
+    color: aliceblue;
+    display: flex;
+    background-color: navy ;
+    border-radius: 10px;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+body{
+    margin: auto;
+    background: url(Paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+}
+.right img{
+    width: 300px;
+    margin: auto;
+    padding: auto;
+}
+.left img{
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+.right{
+    margin: auto;
+    color: white;
+    width: 300px;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
