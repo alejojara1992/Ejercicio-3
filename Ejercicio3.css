@@ -1,19 +1,25 @@
 .contenido{
+    margin: 0px;
+    padding-right: 15px;
     color: aliceblue;
     display: flex;
     background-color: navy ;
     border-radius: 10px;
     list-style: none;
     justify-content: space-evenly;
-    text-align: center;
+    text-align: right;
 }
 body{
-    margin: auto;
+    margin: 0px;
     background: url(Paisaje.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
+}
+.pag{
+    margin: 0px;
+    padding: 20px;
     display: flex;
+    justify-content: space-around;
 }
 .right img{
     width: 300px;
@@ -23,13 +29,22 @@ body{
 .left img{
     display: flex;
     margin: auto;
-    padding: auto;
+    padding: 30px;
+    height: 700px;
 }
 .right{
     margin: auto;
+    padding: 20px;
     color: white;
     width: 300px;
     display: flex;
     text-align: justify;
     flex-direction: column;
+    border-bottom: 2px black dotted;
+}
+footer{
+    margin: 0px;
+    padding: 30px;
+    background-color: blue;
+    text-align: center;    
 }
